@@ -18,13 +18,17 @@
             background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/background.jpg");
         }
     </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
     <img src="images/icon2.png" style="display: none;">
     <div class="container">
         <div class="top">
-            <img class="image" id="topImage" src="images/load.png" style="z-index: 2; background-color: black;">
-            <img class="image" src="images/loading.gif" style="z-index: 1;">
+            <img src="images/load.png" alt="" data-animated="images/loading.gif" data-static="images/load.png" id="discord" class="image">
+            <!-- <img class="image" src="images/load.png" style="z-index: 1; background-color: black;">
+            <img class="image"  id="topImage" src="images/loading.gif" style="z-index: 2;"> -->
             <img class="db" src="images/DB.png">
         </div>
         <div class="main">

@@ -154,13 +154,13 @@ button::after {
     margin-left: 20px;
 }
 
-#topImage{
-    opacity: 1;
+/* #topImage{
+    opacity: 0;
 }
 
 #topImage:hover{
-    opacity: 0;
-}
+    opacity: 1;
+} */
 
 .main h1{
     font-size: 50px;
