@@ -3,14 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    background-repeat : no-repeat;
-    background-size : cover;
-    height: 100vh;
-    margin: 0 auto;
-    background-position: center center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/background.jpg");
-}
 .top{
     color: white;
     display: flex;
