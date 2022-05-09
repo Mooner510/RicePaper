@@ -154,14 +154,6 @@ button::after {
     margin-left: 20px;
 }
 
-/* #topImage{
-    opacity: 0;
-}
-
-#topImage:hover{
-    opacity: 1;
-} */
-
 .main h1{
     font-size: 50px;
 }
@@ -177,7 +169,7 @@ button::after {
     position: absolute;
 }
 
-@media(max-width:560px){
+@media(max-width:800px){
     .top{
         background-color: black;
         color: white;
@@ -242,11 +234,5 @@ button::after {
         height: 150px;
         left: 0;
         bottom: 0px;
-    }
-    #j:hover{
-        transform: scale(1.5);
-        color: rgb(255, 200, 0);
-        font-weight: 1000;
-        letter-spacing: 10px
     }
 }
