@@ -1,3 +1,12 @@
+body{
+    height: 420vh;
+}
+
+.naeyong{
+    height: 300vh;
+    background: linear-gradient(to bottom, black, rgb(0, 122, 175), rgb(255, 158, 216));
+}
+
 .main h1{
     background-image: linear-gradient(100deg,rgb(0, 255, 229),rgb(255, 0, 144));
     color: transparent;
@@ -11,11 +20,17 @@
 }
 .top{
     background-color: none;
+    height: 70px;
+    padding: 1rem;
     color: white;
     display: flex;
-    align-items: flex-end;
     justify-content: start;
     align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .main{
     color: white;
@@ -25,7 +40,7 @@
     width: 100%;
 }
 .link{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 10;
     font-family:Arial, Helvetica, sans-serif;
     background-color: white;
@@ -34,8 +49,8 @@
     margin-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -55,13 +70,15 @@
     justify-content: space-evenly;
     align-items: flex-end;
     display: flex;
-    position: absolute;
+    position: fixed;
     clear: left;
     margin-bottom: 20px;
     float: left;
     width: 100%;
     height: 100px;
     left: 0;
+    right: 0;
+    bottom: 0;
     bottom: 0px;
 }
 
@@ -156,21 +173,20 @@ button::after {
 .image{
     position: absolute;
     height: 80px;
-    margin-top: 50px;
     margin-left: 20px;
 }
 
 .main h1{
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .main img{
-    height: 100px;
+    margin-bottom: 10px;
+    height: 140px;
 }
 
 .db{
     height: 20px;
-    margin-top: 50px;
     margin-left: 110px;
     position: absolute;
 }

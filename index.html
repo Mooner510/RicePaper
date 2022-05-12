@@ -7,37 +7,39 @@
     <title>RicePaper Discord Bot</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="images/icon2.ico">
-    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <style>
         .container{
+            padding-top: 1px;
             background-repeat : no-repeat;
             background-size : cover;
-            height: 100vh;
+            height: 120vh;
             margin: 0 auto;
             background-position: center center;
             background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/background.jpg");
         }
     </style>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
+    <header>
+        <div class="top">
+                <img src="images/load.png" alt="" data-animated="images/loading.gif" data-static="images/load.png" id="discord" class="image">
+                <!-- <img class="image" src="images/load.png" style="z-index: 1; background-color: black;">
+                <img class="image"  id="topImage" src="images/loading.gif" style="z-index: 2;"> -->
+                <img class="db" src="images/DB.png">
+        </div>
+    </header>
     <img src="images/icon2.png" style="display: none;">
     <div class="container">
-        <div class="top">
-            <img src="images/load.png" alt="" data-animated="images/loading.gif" data-static="images/load.png" id="discord" class="image">
-            <!-- <img class="image" src="images/load.png" style="z-index: 1; background-color: black;">
-            <img class="image"  id="topImage" src="images/loading.gif" style="z-index: 2;"> -->
-            <img class="db" src="images/DB.png">
-        </div>
+        
         <div class="main">
             <img src="images/image.png">
             <!-- <img src="DB.png" style="height: 30px;"> -->
             <!-- <h1>
                 <img src="rice.png" style="height: 50px; margin-top: 26px;">
             </h1> -->
-            <h1>Discord RicePaper</h1>
+            <h1>Find your school lunch in<br>your Discord server for free</h1>
             <button class="link" id="h" onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=969015519875325992&permissions=139586824256&scope=bot%20applications.commands')">
                 Click to Invite RicePaper
             </button>
@@ -48,6 +50,9 @@
             <a id="k" href="https://github.com/Mooner510">Bot Developer&emsp;Mooner510</a><br>
             <a id="k" href="https://github.com/wjknnn">Frontend&emsp;𝓒𝓱𝓮𝓬𝓴𝓲𝓷𝓰</a>
         </div>
+    </div>
+    <div class="naeyong">
+        <p>hello</p>
     </div>
 </body>
 </html>
