@@ -258,3 +258,15 @@ button::after {
         bottom: 0px;
     }
 }
+
+.egg{
+    text-decoration: none;
+    color: rgb(255, 158, 216);
+    background: rgb(221, 136, 187);
+}
+
+.naeyong{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}

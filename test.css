@@ -1,0 +1,42 @@
+body{
+    text-align: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 737px;
+    
+}
+h1{
+    top: 100px;
+    position: absolute;
+    left: auto;
+    right: 700px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 1260px;
+    top: 480px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 30px;
+    height: 80px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    transform: scale(1.2);
+    letter-spacing: 5px;
+}
