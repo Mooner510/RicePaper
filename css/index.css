@@ -291,7 +291,7 @@ button::after {
         width: 100%;
     }
     .main h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 10px;
     }
     .main img{
@@ -305,7 +305,7 @@ button::after {
         margin-left: 20px;
     }
     .link{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 10;
         background-color: white;
         color: black;
@@ -347,6 +347,6 @@ button::after {
         margin-left: 30px;
     }
     .in{
-        font-size: 15px;
+        font-size: 12px;
     }
 }
