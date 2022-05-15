@@ -194,6 +194,84 @@ button::after {
     position: absolute;
 }
 
+.egg{
+    text-decoration: none;
+    color: rgb(255, 158, 216);
+    background: rgb(221, 136, 187);
+}
+
+.naeyong{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.explanation{
+    height: 4000px;
+    background: linear-gradient(to bottom, black, rgb(54, 57, 63), rgb(54, 57, 63), rgb(54, 57, 63));
+    background-color: rgb(0, 122, 175);
+}
+  
+.animate {
+    color: white;
+    position: sticky;
+    top: 45vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.animate img{
+    height: 500px;
+}
+  
+.trigger {
+    width: 100%;
+    height: 10px;
+    margin-bottom: 900px;
+}
+
+.in{
+    font-size: 20px;
+}
+
+.out{
+    font-weight: bold;
+    letter-spacing: 9px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(100deg,rgb(0, 255, 229),rgb(255, 0, 144));
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.one{
+    margin-left: 20px;
+    text-align: start;
+}
+
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#tracking-in-expand:hover{
+    animation: tracking-in-expand 0.7s both;
+}
+
 @media(max-width:800px){
     .top{
         background-color: black;
@@ -260,78 +338,14 @@ button::after {
         left: 0;
         bottom: 0px;
     }
-}
-
-.egg{
-    text-decoration: none;
-    color: rgb(255, 158, 216);
-    background: rgb(221, 136, 187);
-}
-
-.naeyong{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.explanation{
-    height: 4000px;
-    background: linear-gradient(to bottom, black, rgb(54, 57, 63), rgb(54, 57, 63), rgb(54, 57, 63));
-    background-color: rgb(0, 122, 175);
-}
-  
-.animate {
-    color: white;
-    position: sticky;
-    top: 45vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 40px;
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    margin-left: 100px;
-}
-  
-.trigger {
-    width: 100%;
-    height: 10px;
-    margin-bottom: 900px;
-}
-
-.in{
-    font-size: 20px;
-}
-
-.out{
-    font-weight: bold;
-    letter-spacing: 9px;
-    margin-bottom: 40px;
-    background-image: linear-gradient(100deg,rgb(0, 255, 229),rgb(255, 0, 144));
-    color: transparent;
-    -webkit-background-clip: text;
-    
-}
-
-.one{
-    margin-left: 20px;
-    text-align: start;
-}
-
-
-@keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
+    .animate img{
+        display: none;
     }
-    40% {
-      opacity: 0.6;
+    .animate {
+        font-size: 25px;
+        margin-left: 30px;
     }
-    100% {
-      opacity: 1;
+    .in{
+        font-size: 15px;
     }
-  }
-#tracking-in-expand:hover{
-    animation: tracking-in-expand 0.7s both;
 }
