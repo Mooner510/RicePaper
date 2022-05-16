@@ -209,7 +209,7 @@ button::after {
 
 .explanation{
     height: 4000px;
-    background: linear-gradient(to bottom, black, rgb(54, 57, 63), rgb(54, 57, 63));
+    background: linear-gradient(to bottom, black, rgb(37, 42, 51), rgb(36, 43, 54));
     width: 100%;
 }
   
