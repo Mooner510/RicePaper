@@ -1,19 +1,14 @@
-body{
-    text-align: start;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 737px;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
 h1{
     top: 100px;
     position: absolute;
     left: auto;
-    right: 700px;
+    right: 20px;
     font-family: sans-serif;
     color: white;
     font-size: 100px;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
 }
 a{
     text-decoration: none;
@@ -23,8 +18,8 @@ button{
     background-color: white;
     color: rgb(0, 0, 0);
     position: absolute;
-    right: 1260px;
-    top: 480px;
+    right: 50px;
+    top: 280px;
     font-family: sans-serif;
     letter-spacing: 3px;
     font-weight: 900;
@@ -39,4 +34,17 @@ button{
 button:hover{
     transform: scale(1.2);
     letter-spacing: 5px;
+}
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+p{
+    position: absolute;
+    top: 370px;
+    right: 900px;
 }

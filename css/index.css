@@ -207,17 +207,9 @@ button::after {
     justify-content: center;
 }
 
-.more{
-    height: 1000px;
-    background: linear-gradient(to bottom, black, rgb(54, 57, 63));
-    background-color: rgb(0, 122, 175);
-    width: 100%;
-}
-
 .explanation{
     height: 4000px;
-    background: rgb(54, 57, 63);
-    background-color: rgb(54, 57, 63);
+    background: linear-gradient(to bottom, black, rgb(54, 57, 63), rgb(54, 57, 63));
     width: 100%;
 }
   
@@ -355,7 +347,7 @@ button::after {
     }
     .animate {
         font-size: 25px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .in{
         font-size: 12px;
