@@ -8,7 +8,7 @@ body{
 
 .naeyong{
     height: 300vh;
-    background: linear-gradient(to bottom, black, rgb(0, 122, 175), rgb(255, 158, 216));
+    background: rgb(225, 190, 214);
 }
 
 .main h1{
@@ -208,8 +208,8 @@ button::after {
 }
 
 .explanation{
-    height: 4000px;
-    background: linear-gradient(to bottom, black, rgb(37, 42, 51), rgb(36, 43, 54));
+    height: 1200vh;
+    background: linear-gradient(to bottom, black, rgb(0, 79, 86), rgb(86, 0, 59));
     width: 100%;
 }
   
@@ -224,10 +224,6 @@ button::after {
     width: 100%;
     text-align: center;
     margin-left: 100px;
-}
-
-.animate img{
-    height: 500px;
 }
   
 .trigger {
@@ -257,6 +253,21 @@ button::after {
 
 #animation1{
     opacity: 0;
+}
+#animation1 img{
+    height: 500px;
+}
+#animation2{
+    opacity: 0;
+}
+#animation2 img{
+    height: 150px;
+}
+#animation3{
+    opacity: 0;
+}
+#animation3 img{
+    height: 300px;
 }
 
 
