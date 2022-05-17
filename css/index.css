@@ -197,8 +197,8 @@ button::after {
 
 .egg{
     text-decoration: none;
-    color: rgb(255, 158, 216);
-    background: rgb(221, 136, 187);
+    color: rgb(158, 218, 255);
+    background: rgb(157, 211, 255)
 }
 
 .naeyong{
@@ -286,6 +286,23 @@ button::after {
 }
 .help p{
     margin-bottom: 10px;
+}
+
+.tjfaud{
+    margin-top: 740px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tjf{
+    text-align: center;
+}
+
+.tjf a{
+    color: rgb(0, 93, 94);
+    text-decoration: none;
 }
 
 @keyframes tracking-in-expand {
