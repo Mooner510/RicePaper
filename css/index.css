@@ -276,7 +276,6 @@ button::after {
     display: block;
     text-align: center;
     height: 50vh;
-    font-size: 30px;
     font-weight: 1000;
     letter-spacing: 6px;
 }
@@ -286,6 +285,7 @@ button::after {
 }
 .help p{
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .tjfaud{
@@ -295,14 +295,28 @@ button::after {
     justify-content: space-evenly;
     align-items: center;
 }
-
+.tjf h3{
+    font-size: 40px;
+}
 .tjf{
     text-align: center;
 }
-
-.tjf a{
-    color: rgb(0, 93, 94);
-    text-decoration: none;
+.tjf p{
+    font-size: 24px;
+}
+.tjf button{
+    margin-top: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(122, 218, 220);
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.tjf a button:hover{
+    transform: scale(1.3);
 }
 
 @keyframes tracking-in-expand {
@@ -391,10 +405,42 @@ button::after {
         display: none;
     }
     .animate {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 10px;
     }
     .in{
         font-size: 12px;
+    }
+    .help img{
+        height: 52px;
+        margin-bottom: 40px;
+    }
+    .help p{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .tjf h3{
+        font-size: 20px;
+    }
+    .tjf p{
+        font-size: 10px;
+    }
+    .tjf button{
+        margin-top: 20px;
+        width: 120px;
+        border: none;
+        border-radius: 100px;
+        color: white;
+        background-color: rgb(122, 218, 220);
+        font-size: 18px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .tjfaud{
+        margin-top: 1000px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
