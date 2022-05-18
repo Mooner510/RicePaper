@@ -69,6 +69,7 @@ body{
 }
 
 .bottom{
+    font-size: 15px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.551), rgba(0, 0, 0, 0));
     padding-bottom: 30px;
     color: white;
@@ -353,7 +354,7 @@ button::after {
         width: 100%;
     }
     .main h1{
-        font-size: 25px;
+        font-size: 23px;
         margin-top: 10px;
     }
     .main img{
@@ -373,10 +374,10 @@ button::after {
         color: black;
         border: none;
         margin-top: 30px;
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         border-radius: 100px;
         cursor: pointer;
     }
@@ -387,6 +388,7 @@ button::after {
         position: absolute;
     }
     .bottom{
+        font-size: 10px;
         line-height: 30px;
         padding-bottom: 10px;
         color: white;
@@ -405,22 +407,22 @@ button::after {
         display: none;
     }
     .animate {
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 16px;
+        margin-left: 0px;
     }
     .in{
-        font-size: 12px;
+        font-size: 10px;
     }
     .help img{
-        height: 52px;
+        height: 40px;
         margin-bottom: 40px;
     }
     .help p{
-        font-size: 13px;
+        font-size: 10px;
         margin-bottom: 10px;
     }
     .tjf h3{
-        font-size: 20px;
+        font-size: 15px;
     }
     .tjf p{
         font-size: 10px;
@@ -438,6 +440,7 @@ button::after {
     }
     .tjfaud{
         margin-top: 1000px;
+        width: auto;
         height: 100px;
         display: flex;
         justify-content: space-evenly;
