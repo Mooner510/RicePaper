@@ -197,12 +197,14 @@ button::after {
 }
 
 .egg{
+    z-index: 11;
     text-decoration: none;
-    color: rgb(158, 218, 255);
-    background: rgb(157, 211, 255)
+    color: rgba(158, 218, 255, 0.115);
+    background: rgba(157, 211, 255, 0.042)
 }
 
 .naeyong{
+    z-index: 10;
     display: flex;
     align-items: flex-end;
     justify-content: center;
