@@ -4,6 +4,7 @@
 body{
     height: 420vh;
     width: 100%;
+    background-color: black;
 }
 
 .naeyong{
@@ -278,7 +279,8 @@ button::after {
     color: white;
     display: block;
     text-align: center;
-    height: 50vh;
+    margin-top: 100vh;
+    height: 100vh;
     font-weight: 1000;
     letter-spacing: 6px;
 }
